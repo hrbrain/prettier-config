@@ -12,5 +12,19 @@
     "hrbrain",
     "prettier",
     "config"
-  ]
+  ],
+  "devDependencies": {
+    "@types/prettier": "2.4.4",
+    "hygen": "6.2.0",
+    "jest": "27.5.1",
+    "prettier": "^2.6.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "sandbox": "prettier --write",
+    "gen:sandbox": "hygen generator sandbox"
+  }
 }
