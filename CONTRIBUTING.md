@@ -13,20 +13,6 @@ yarn
 
 ## Structure
 
-```bash
-.
-├── libs
-│   ├── base
-│   └── react
-├── sandbox
-└── tests
-    ├── libs
-    │   ├── base.spec.js
-    │   └── react.spec.js
-    └── utils
-        └── get-prettier-options.js
-```
-
 ### libs
 
 Edit this directory files when you want to add preset or edit that.
