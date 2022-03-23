@@ -1,4 +1,4 @@
-name: Ship js trigger
+name: Release
 on:
   pull_request:
     types:
