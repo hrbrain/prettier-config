@@ -1,6 +1,6 @@
 {
   "name": "@hrbrain/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "git@github.com:hrbrain/prettier-config.git",
   "author": "hrb-yamamoto-katsuya <yamamoto.katsuya@hrbrain.co.jp>",
