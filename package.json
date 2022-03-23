@@ -1,12 +1,18 @@
 {
   "name": "@hrbrain/prettier-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:hrbrain/prettier-config.git",
   "author": "hrb-yamamoto-katsuya <yamamoto.katsuya@hrbrain.co.jp>",
   "license": "Apache-2.0",
-  "files": ["libs"],
-  "keywords": ["hrbrain", "prettier", "config"],
+  "files": [
+    "libs"
+  ],
+  "keywords": [
+    "hrbrain",
+    "prettier",
+    "config"
+  ],
   "devDependencies": {
     "@types/prettier": "2.4.4",
     "hygen": "6.2.0",
