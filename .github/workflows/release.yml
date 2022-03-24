@@ -3,22 +3,35 @@ on:
   pull_request:
     types:
       - closed
+
 jobs:
-  build:
-    name: Release
-    runs-on: ubuntu-latest
+  release:
+    runs-on: ubuntu-20.04
     if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'releases/v')
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
           ref: main
-      - uses: actions/setup-node@v1
+
+      - uses: actions/setup-node@v2
         with:
-          registry-url: "https://registry.npmjs.org"
           node-version: 12.22.6
-      - run: yarn install
+
+      - run: yarn --prefer-offline
+
       - run: yarn shipjs trigger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      - name: setup Node to publish to Github Packages
+        uses: actions/setup-node@v2
+        with:
+          registry-url: "https://npm.pkg.github.com"
+          node-version: "12.x"
+
+      - name: publish to Github Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
