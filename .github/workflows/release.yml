@@ -30,6 +30,7 @@ jobs:
         with:
           registry-url: "https://npm.pkg.github.com"
           node-version: "12.x"
+          scope: "@hrbrain"
 
       - name: publish to Github Packages
         run: npm publish
