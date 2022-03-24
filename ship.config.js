@@ -1,5 +1,5 @@
 module.exports = {
-  publishCommand: ({ defaultCommand, tag }) =>
-    `${defaultCommand} --access public --tag ${tag}`,
+  publishCommand: () =>
+    `npm_config_registry=https://npm.pkg.github.com npm publish --access public`,
   buildCommand: () => null,
 };
