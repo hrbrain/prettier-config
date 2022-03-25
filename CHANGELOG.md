@@ -1,3 +1,7 @@
+## [0.1.11](https://github.com/hrbrain/prettier-config/compare/v0.1.10...v0.1.11) (2022-03-25)
+
+
+
 ## [0.1.10](https://github.com/hrbrain/prettier-config/compare/v0.1.9...v0.1.10) (2022-03-25)
 
 
