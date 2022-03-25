@@ -1,6 +1,6 @@
 {
   "name": "@hrbrain/prettier-config",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "repository": "git@github.com:hrbrain/prettier-config.git",
   "author": "hrb-yamamoto-katsuya <yamamoto.katsuya@hrbrain.co.jp>",
   "license": "Apache-2.0",
