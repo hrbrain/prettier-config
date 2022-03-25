@@ -6,11 +6,17 @@
 
 ## Usage
 
+`<your-project>/.npmrc`
+
+```
+@hrbrain:registry=https://npm.pkg.github.com
+```
+
 ```bash
 yarn add prettier @hrbrain/prettier-config
 ```
 
-.prettierrc.js
+`<your-project>/.prettierrc.js`
 
 ```js
 const config = require("@hrbrain/prettier-config/libs/react/.prettierrc.js");
