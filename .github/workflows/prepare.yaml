@@ -1,4 +1,4 @@
-name: Shipjs run prepare
+name: Create Release PR
 
 on: workflow_dispatch
 
