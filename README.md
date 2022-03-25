@@ -1,6 +1,6 @@
 # Prettier config for [HRBrain](https://www.hrbrain.jp/)
 
-[![npm version](https://badge.fury.io/js/%40hrbrain%2Fprettier-config.svg)](https://badge.fury.io/js/%40hrbrain%2Fprettier-config)
+[![GitHub Packages](https://img.shields.io/badge/package-GitHub-red.svg?style=flat-square)](https://github.com/hrbrain/prettier-config/packages/)
 ![LICENSE Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green.svg?style=flat-square)
 
 ## Usage
