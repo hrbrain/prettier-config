@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/hrbrain/prettier-config/compare/v0.1.12...v0.2.0) (2022-11-09)
+
+
+### Features
+
+* support node.js v18 ([#17](https://github.com/hrbrain/prettier-config/issues/17)) ([af7fb18](https://github.com/hrbrain/prettier-config/commit/af7fb1811d78d4407dbb495b26e77874c396a99e))
+
+
+
 ## [0.1.12](https://github.com/hrbrain/prettier-config/compare/v0.1.11...v0.1.12) (2022-03-25)
 
 
